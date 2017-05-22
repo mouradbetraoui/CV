@@ -1,0 +1,99 @@
+ @import url('https://fonts.googleapis.com/css?family=Roboto');
+body {
+
+    background: radial-gradient(circle at top left, white, #413d3d);
+}
+
+aside {
+	font-size:22px;
+	font-style:bold;			/* Coordonnée adresse */
+	text-align:left;
+	margin:40px;
+}
+
+header {
+  width:300px;
+	height:150px;
+	-webkit-border-radius:150px / 100px;
+	-moz-border-radius:150px / 100px;			/* forme ovale autour du nom */
+	-o-border-radius:150px / 100px;
+	border-radius:150px / 100px;
+	 background: radial-gradient( white,#543131 );
+ 
+	
+
+  position: top;
+  box-shadow:4px 4px ;
+}
+
+ 
+
+h1 {
+line-height:70px;
+  text-align:center;
+  color:white;
+  font-family: 'Lobster Two', sans-serif;
+  text-shadow: 2px 2px 2px black;
+ 
+}
+
+  h2 {
+font-size:25px;
+  font-family:cursive;
+  text-align:center;
+  color:white;
+  text-shadow: 2px 2px 2px black;
+}
+
+.image_cv {
+
+  width:12%;
+  height:20%;
+  position:absolute;
+  top:20px;
+  right:80px;
+ -moz-border-radius:7px;
+-webkit-border-radius:7px;
+border-radius:50%;
+ box-shadow: 4px 4px 4px white;
+
+}
+
+ul {
+ background-color:white;
+  font-family: 'Roboto', sans-serif;		
+  font-size:18px;
+  list-style:none;
+  opacity:0.9;
+  background: radial-gradient( white,#543131 );
+ 
+   
+}
+
+
+ .article {
+ border-radius:10px;
+  box-shadow: 4px 4px 4px black;	/* description des compétences */
+ padding:0 20px 0 5px;
+ background-color:white;
+  text-align:center;
+
+ }
+ .article2 {
+ border-radius:10px;
+ box-shadow: 4px 4px 4px black;		/* Experiences professionnelles */
+ padding:0 20px 0 5px;
+ }
+ .article3 {
+ border-radius:10px;
+ box-shadow: 4px 4px 4px black;		/* Formations */
+ padding:0 20px 0 5px;
+  text-align:center;
+ }
+ .CI {
+ border-radius:10px;
+ box-shadow: 4px 4px 4px black;			/* Centres d' intéret */
+ padding:0 15px;
+ font-size:22px;
+  background: radial-gradient( white, #543131);
+ }
